@@ -1,16 +1,8 @@
-import './App.css'
-
+// import React from "react";
+import Desktop from "./features/desktop/desktop";
+import "./index.css";
 function App() {
-
-  return (
-    <>
-    <center>
-      <h1>
-        Welcome to Windows 10 Simulator...
-      </h1>
-    </center>
-    </>
-  )
+  return <Desktop />;
 }
 
-export default App
+export default App;
